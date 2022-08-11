@@ -93,7 +93,7 @@ namespace RentACarInternshipProject.Controllers
             cars.Add(car);
             string str = SlugManager.slug(car);
             car.Slug = str;
-            return Ok(str);
+            return Ok();
         }
 
         [HttpPut("update")]
