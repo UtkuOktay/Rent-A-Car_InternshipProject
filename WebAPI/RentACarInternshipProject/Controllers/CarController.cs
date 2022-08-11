@@ -10,12 +10,16 @@ namespace RentACarInternshipProject.Controllers
 
         static CarController()
         {
-            Car[] initialCars = new Car[4];
+            Car[] initialCars = new Car[8];
 
             initialCars[0] = new Car("Volkswagen", "Passat", 2017, 1.6, BodyStyles.Sedan, "White", FuelTypes.Diesel, TransmissionTypes.Automatic, 120);
             initialCars[1] = new Car("Ford", "Focus", 2020, 1.5, BodyStyles.StationWagon, "White", FuelTypes.Diesel, TransmissionTypes.Automatic, 120);
             initialCars[2] = new Car("Peugeot", "3008", 2022, 1.6, BodyStyles.SUV, "White", FuelTypes.Gasoline, TransmissionTypes.Automatic, 180);
             initialCars[3] = new Car("Renault", "Clio", 2018, 1.2, BodyStyles.Hatchback, "Red", FuelTypes.Gasoline, TransmissionTypes.Manual, 75);
+            initialCars[4] = new Car("Volkswagen", "Passat", 2008, 1.6, BodyStyles.Sedan, "Gray", FuelTypes.Gasoline, TransmissionTypes.Manual, 115);
+            initialCars[5] = new Car("Ford", "Mondeo", 2015, 1.5, BodyStyles.Hatchback, "Red", FuelTypes.Gasoline, TransmissionTypes.Automatic, 160);
+            initialCars[6] = new Car("Mercedes-Benz", "C 200 d", 2016, 1.6, BodyStyles.Sedan, "White", FuelTypes.Diesel, TransmissionTypes.Automatic, 135);
+            initialCars[7] = new Car("Volvo", "S60", 2021, 2.0, BodyStyles.Sedan, "Blue", FuelTypes.Gasoline, TransmissionTypes.Automatic, 250);
 
             for (int i = 0; i < initialCars.Length; i++)
             {
