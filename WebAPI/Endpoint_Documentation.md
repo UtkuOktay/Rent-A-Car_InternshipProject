@@ -182,7 +182,7 @@ Deletes a car.
 
 **URL:** {GATEWAY_BASE_URL}/api/delete/{id}
 
-## **Response:**
+### **Response:**
 
 If successful, returns only HTTP 200 OK status, no content.
 
