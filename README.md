@@ -4,6 +4,8 @@ This project was made by Utku Oktay and Deniz Uğur.
 ## Our LinkedIn accounts:
 
 https://www.linkedin.com/in/denougur/
+
+
 https://www.linkedin.com/in/utku-oktay-9b30581b4/
 
 This project was made with .NET 6.
