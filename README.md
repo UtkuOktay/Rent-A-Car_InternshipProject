@@ -10,7 +10,7 @@ https://www.linkedin.com/in/utku-oktay-9b30581b4/
 
 This project was made with .NET 6.
 
-This project has 1 controller and 1 model, which is car.
+This project has 2 classes. One is providing unique car IDs and the other is providing unique slugs for each car. 1 controller and 1 model, which is car.
 
 The controller has five endpoints that provide a list, search, add, delete, and update cars. You can see endpoint documentation inside the project file.
 
