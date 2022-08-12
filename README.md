@@ -14,7 +14,7 @@ This project has 2 classes. One is providing unique car IDs and the other is pro
 
 The controller has five endpoints that provide a list, search, add, delete, and update cars. You can see endpoint documentation inside the project file.
 
-It is a simple project that helps to understand web.api, endpoints, and .NET6.
+It is a simple project that helps to understand slugs, web.api, endpoints, and .NET6.
 
 We didn't use SQL for saving data; we listed our cars inside the controller.
 
